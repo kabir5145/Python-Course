@@ -4,8 +4,8 @@ def kbc_game():
     questions = [
         {
             "question": "What is the capital of India?",
-            "options": ["A. Mumbai", "B. New Delhi", "C. Kolkata", "D. Chennai"],
-            "answer": "B"
+            "options": ["A. New Delhi", "B. Mumbai", "C. Kolkata", "D. Chennai"],
+            "answer": "A"
         },
         {
             "question": "Who is known as the Father of the Nation?",
@@ -14,22 +14,32 @@ def kbc_game():
         },
         {
             "question": "What is the largest planet in our solar system?",
-            "options": ["A. Earth", "B. Jupiter", "C. Saturn", "D. Mars"],
-            "answer": "B"
+            "options": ["A. Earth", "B. Mars", "C. Saturn", "D. Jupiter"],
+            "answer": "D"
         },
         {
             "question": "Which element has the chemical symbol 'O'?",
-            "options": ["A. Gold", "B. Oxygen", "C. Silver", "D. Iron"],
-            "answer": "B"
+            "options": ["A. Oxygen", "B. Gold", "C. Silver", "D. Iron"],
+            "answer": "A"
         },
         {
             "question": "Who wrote 'Romeo and Juliet'?",
             "options": ["A. Charles Dickens", "B. Mark Twain", "C. William Shakespeare", "D. Jane Austen"],
             "answer": "C"
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "options": ["A. Rupee", "B. Dollar", "C. Yen", "D. Pound"],
+            "answer": "C"
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": ["A. China", "B. Japan", "C. South Korea", "D. Thailand"],
+            "answer": "B"
         }
     ]
 
-    prize_money = [1000, 5000, 10000, 50000, 100000]
+    prize_money = [1000,2000,3000,5000,6000,7000,8000]
     total_amount = 0
 
     print("Welcome to Kaun Banega Crorepati!")
